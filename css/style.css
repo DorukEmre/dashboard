@@ -22,7 +22,8 @@
 /*******************************************/
 
 body {
-  font-family: 'Noto Sans', sans-serif;;
+  font-family: 'Noto Sans', sans-serif;
+  
 }
 a {
   text-decoration: none;
@@ -38,12 +39,14 @@ li {
 /*******************************************/
 body {
   display: grid;
+  grid-template-rows: 135px 1fr;
   grid-template-columns: 260px 1fr;
 }
 
 nav {
   background: #FFDBC5;
   grid-row: span 2;
+  z-index: 3;
 }
 nav a {
   font-size: 20px;
@@ -79,6 +82,8 @@ header {
   background: #819DC0;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 3px 5px rgb(60, 60, 60);
+  z-index: 2;
 }
 header > section {
   width: 100%;
@@ -145,8 +150,9 @@ form button:hover {
 }
 .header-bottom ul a {
   background: #FFDBC5;
-  padding: 8px 15px;
+  padding: 7px 15px;
   border-radius: 5px;
+  border: 1px solid black;
 }
 .header-bottom a:hover {
   background: #FFC5A3; 
@@ -163,6 +169,7 @@ main {
 .trending > section {
   background: #F9FBFE;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(100, 100, 100);
 }
 h2 {
   margin: 15px 0 10px;
@@ -171,7 +178,7 @@ h2 {
 .projects {
   grid-row: span 2;
   grid-column: 1;
-  padding: 0 20px;
+  padding: 0 20px 20px;
 }
 .card-container {
   display: grid;
@@ -188,7 +195,7 @@ h3, h4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px;  
 }
 .card:hover {
   transform: scale(1.03);
@@ -230,13 +237,15 @@ align-self: flex-end;
   padding-bottom: 20px;
 }
 .trending > section {
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 280px;  
+  padding: 0 15px;
 }
 .trending > section a {
   display: flex;
-  padding-bottom: 20px;
   align-items: center;
-
 }
 .trending > section p {
   margin: 2px 0 0 8px;
