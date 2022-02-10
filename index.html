@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Skranji&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+	
+	<title>Admin dashboard</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+<!-- Cat pictures by:
+Photo by <a href="https://unsplash.com/@svklimkin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">svklimkin</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@zoegayah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zoë Gayah Jonker</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@kotecinho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kote Puerto</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@_k_arinn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karina Vorozheeva</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@milada_vigerova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milada Vigerova</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+      
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#"><img src="assets/collage-outline-cut.png" alt="Dashboard icon">Dashboard</a></li>
+				<li><a href="#"><img src="assets/home-outline.png" alt="Home icon">Home</a></li>
+				<li><a href="#"><img src="assets/card-account-details-outline.png" alt="Profile icon">Profile</a></li>
+				<li><a href="#"><img src="assets/message-reply-outline.png" alt="Messages icon">Messages</a></li>
+				<li><a href="#"><img src="assets/clock-time-three-outline.png" alt="History icon">History</a></li>
+				<li><a href="#"><img src="assets/file-multiple-outline.png" alt="Tasks icon">Tasks</a></li>
+				<li><a href="#"><img src="assets/account-group.png" alt="Communities icon">Communities</a></li>
+				<li><a href="#"><img src="assets/cog-outline.png" alt="Settings icon">Settings</a></li>
+				<li><a href="#"><img src="assets/help-circle-outline.png" alt="Support icon">Support</a></li>
+				<li><a href="#"><img src="assets/shield-check-outline.png" alt="Privacy icon">Privacy</a></li>
+			</ul>
+		</nav>
+		<header>
+			<section class="header-top">
+				<section>
+					<form action="#">					
+						<input type="search" placeholder="Search..."><button><img src="assets/magnify.png" alt="Search icon"></button>
+					</form>
+				</section>
+				<section>
+					<a href="#Notifications"><img src="assets/bell-ring-outline.png" alt="Alert icon"></a>
+					<a href="#Profile"><img src="assets/cat3.png" alt="Profile icon">User Name</a>
+				</section>
+			</section>
+			<section class="header-bottom">
+				<section>
+					<img src="assets/cat3-big.png" alt="Profile icon">
+					<section class="welcome">
+						<p>Hi there,</p>
+						<p>User Name <span>(@username)</span></p>
+					</section>
+				</section>
+				<section>
+					<ul>
+						<li><a href="#New">New</a></li>
+						<li><a href="#Upload">Upload</a></li>
+						<li><a href="#Share">Share</a></li>
+					</ul>
+				</section>
+			</section>
+		</header>
+
+		<main>
+			<section class="projects">
+				<h2>Your Projects</h2>
+				<section class="card-container">
+					<section class="card">
+						<a href="#">
+							<h3>Super cool Project</h3>
+							<p>Nullam vehicula leo a sapien finibus, a ultricies nisl hendrerit. Vestibulum ornare metus at felis scelerisque.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Less cool Project</h3>
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin porttitor feugiat faucibus.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Impossible App</h3>
+							<p>Suspendisse odio enim, ullamcorper ac augue quis, faucibus consequat ligula. Cras pulvinar tortor a sollicitudin feugiat. Aenean sed tristique enim quis, consectetur orci.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Easy Peasy App</h3>
+							<p>Fusce a felis fermentum, tristique enim quis, consectetur orci. Aliquam erat volutpat. Ut viverra egestas mauris eu ultrices.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Ad Blocker</h3>
+							<p>Curabitur non semper magna, sed feugiat orci. Sed pharetra turpis vitae dui sagittis, sit amet faucibus ligula accumsan. Nam vulputate.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Money Maker</h3>
+							<p>Ut efficitur tortor et venenatis cursus. Praesent eget nisi id risus pulvinar tempus in.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section><section class="card">
+						<a href="#">
+							<h3>Super cool Project</h3>
+							<p>Nullam vehicula leo a sapien finibus, a ultricies nisl hendrerit. Vestibulum ornare metus at felis scelerisque.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Less cool Project</h3>
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin porttitor feugiat faucibus.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Impossible App</h3>
+							<p>Suspendisse odio enim, ullamcorper ac augue quis, faucibus consequat ligula. Cras pulvinar tortor a sollicitudin feugiat. Aenean sed tristique enim quis, consectetur orci.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Easy Peasy App</h3>
+							<p>Fusce a felis fermentum, tristique enim quis, consectetur orci. Aliquam erat volutpat. Ut viverra egestas mauris eu ultrices.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Ad Blocker</h3>
+							<p>Curabitur non semper magna, sed feugiat orci. Sed pharetra turpis vitae dui sagittis, sit amet faucibus ligula accumsan. Nam vulputate.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+					<section class="card">
+						<a href="#">
+							<h3>Money Maker</h3>
+							<p>Ut efficitur tortor et venenatis cursus. Praesent eget nisi id risus pulvinar tempus in.</p>
+						</a>
+						<section>
+							<button><img src="assets/star-plus-outline.png" alt="Add to favourites icon"></button>
+							<button><img src="assets/eye-plus-outline.png" alt="Add to read later icon"></button>
+							<button><img src="assets/share-variant-outline.png" alt="Share icon"></button>
+						</section>
+					</section>
+				</section>		
+			</section>
+
+			<section class="main-side">
+				<section class="announcements">
+					<h2>Announcements</h2>
+					<section>
+						<ul>
+							<li>
+								<a href="#">
+									<h4>Site Maintenance</h4>
+									<p>Proin efficitur faucibus nibh a dictum. Quisque dignissim erat leo, euismod tempor metus fringilla.</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h4>Community Share Day</h4>
+									<p>Sed ut ante orci. Proin sed libero at turpis scelerisque interdum eget nec nisl.</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h4>Updated Privacy Policy</h4>
+									<p>Nam auctor tincidunt turpis sed lobortis. Vivamus tincidunt erat dictum, mattis velit et, dapibus.</p>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="trending">
+					<h2>Trending</h2>
+					<section>
+						<a href="#">
+							<img src="assets/cat1.png" alt="profile icon">
+							<section>
+								<p>@tegan</p>
+								<p>World Peace Builder</p>
+							</section>								
+						</a>
+						<a href="#">
+							<img src="assets/cat2.png" alt="profile icon">
+							<section>
+								<p>@morgan</p>
+								<p>Super Cool Project</p>
+							</section>
+						</a>
+						<a href="#">
+							<img src="assets/cat4.png" alt="profile icon">
+							<section>
+								<p>@kendall</p>
+								<p>Life Changing App</p>
+							</section>								
+						</a>
+						<a href="#">
+							<img src="assets/cat5.png" alt="profile icon">
+							<section>
+								<p>@alex</p>
+								<p>No Traffic Maker</p>
+							</section>
+						</a>
+					</section>
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
